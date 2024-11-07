@@ -8,7 +8,6 @@ Bienvenido al repositorio del sitio web de **Yacu Selva**, una distribuidora de 
 - [Estado del Proyecto](#estado-del-proyecto)
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Instalación y Ejecución](#instalación-y-ejecución)
-- [Licencia](#licencia)
 - [Contacto](#contacto)
 
 ## Descripción
@@ -42,19 +41,16 @@ Este proyecto se encuentra en **desarrollo**.
    ```bash
    git clone https://github.com/DannerDQ/yacuselva.git
    ```
-
 2. **Ingresar al directorio del proyecto**
 
    ```bash
    cd yacuselva
    ```
-
 3. **Instalar las dependencias**
 
    ```bash
    npm install
    ```
-
 4. **Configurar las variables de entorno**
 
    Crear un archivo `.env.local` en la raíz del proyecto y agregar las credenciales necesarias:
@@ -66,20 +62,14 @@ Este proyecto se encuentra en **desarrollo**.
    TURSO_DB_URL=tu-url-de-turso
    TURSO_DB_TOKEN=tu-token-de-turso
    ```
-
 5. **Ejecutar el proyecto en modo desarrollo**
 
    ```bash
    npm run dev
    ```
-
 6. **Abrir en el navegador**
 
    Visita [http://localhost:3000](http://localhost:3000) para ver el sitio web en funcionamiento.
-
-## Licencia
-
-Este proyecto está bajo la licencia **Creative Commons - No Comercial (CC BY-NC)**. Para más información, visita [este enlace](https://creativecommons.org/licenses/by-nc/4.0/).
 
 ## Contacto
 
