@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Yacu Selva
 
-## Getting Started
+Bienvenido al repositorio del sitio web de **Yacu Selva**, una distribuidora de agua de mesa embotellada en Nueva Cajamarca, Perú.
 
-First, run the development server:
+## Tabla de Contenidos
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Descripción](#descripción)
+- [Estado del Proyecto](#estado-del-proyecto)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
+- [Instalación y Ejecución](#instalación-y-ejecución)
+- [Licencia](#licencia)
+- [Contacto](#contacto)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Descripción
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Yacu Selva** es una distribuidora de agua de mesa embotellada cuya misión es convertirse en la líder en su localidad, Nueva Cajamarca, Perú. Actualmente, ofrecemos la reposición o compra de garrafas de 20L de agua de mesa **Yacu Selva**.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Estado del Proyecto
 
-## Learn More
+Este proyecto se encuentra en **desarrollo**.
 
-To learn more about Next.js, take a look at the following resources:
+## Tecnologías Utilizadas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js](https://nextjs.org/)
+- [React.js](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [CSS3](https://www.w3.org/Style/CSS/)
+- [Auth0](https://auth0.com/)
+- [Turso](https://turso.tech/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Instalación y Ejecución
 
-## Deploy on Vercel
+### Requisitos Previos
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Node.js](https://nodejs.org/) instalado en su máquina.
+- Credenciales de **Auth0** y **Turso** configuradas.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Pasos de Instalación
+
+1. **Clonar el repositorio**
+
+   ```bash
+   git clone https://github.com/DannerDQ/yacuselva.git
+   ```
+
+2. **Ingresar al directorio del proyecto**
+
+   ```bash
+   cd yacuselva
+   ```
+
+3. **Instalar las dependencias**
+
+   ```bash
+   npm install
+   ```
+
+4. **Configurar las variables de entorno**
+
+   Crear un archivo `.env.local` en la raíz del proyecto y agregar las credenciales necesarias:
+
+   ```env
+   AUTH0_DOMAIN=tu-dominio.auth0.com
+   AUTH0_CLIENT_ID=tu-client-id
+   AUTH0_CLIENT_SECRET=tu-client-secret
+   TURSO_DB_URL=tu-url-de-turso
+   TURSO_DB_TOKEN=tu-token-de-turso
+   ```
+
+5. **Ejecutar el proyecto en modo desarrollo**
+
+   ```bash
+   npm run dev
+   ```
+
+6. **Abrir en el navegador**
+
+   Visita [http://localhost:3000](http://localhost:3000) para ver el sitio web en funcionamiento.
+
+## Licencia
+
+Este proyecto está bajo la licencia **Creative Commons - No Comercial (CC BY-NC)**. Para más información, visita [este enlace](https://creativecommons.org/licenses/by-nc/4.0/).
+
+## Contacto
+
+- **Desarrollador**: [Danner Díaz Quispe](mailto:diazquispedanner@gmail.com)
+- **Empresa**: [Yacu Selva](mailto:jhodely1_5_93@hotmail.com)
+- **Dirección**: JR LOS SAUCES S/N CUADRA 1 - LA ALAMEDA DEL EDÉN - Nueva Cajamarca - Perú
+
+---
+
+Visita nuestro sitio web en producción: [Yacu Selva](https://yacu-selva.vercel.app)
