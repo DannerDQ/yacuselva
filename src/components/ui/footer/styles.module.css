@@ -1,0 +1,51 @@
+.footer {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 1em;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  margin-bottom: 2em;
+
+  & section {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 1em;
+    padding: 0 2em;
+  }
+
+  & h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  & a:hover {
+    text-decoration: underline;
+  }
+
+
+}
+
+.socialList {
+  display: flex;
+  justify-content: space-around;
+}
+
+.socialIcon {
+  width: fit-content;
+}
+
+.socialIcon:hover {
+  scale: 1.2;
+}
+
+@media (min-width: 767px) {
+  .footer > section {
+    flex-direction: row;
+  }
+}
