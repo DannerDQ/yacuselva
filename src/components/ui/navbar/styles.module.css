@@ -1,0 +1,46 @@
+.navbar {
+    display: grid;
+
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: repeat(2, minmax(0, auto));
+    gap: 0 0.5em;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2em 0.3em;
+
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: bolder;
+
+    min-height: 39px;
+
+    background-color: var(--secondary-bg);
+}
+
+.logo_wrapper {
+    position: relative;
+    gap: 0.3em;
+    width: 48px;
+    height: 48px;
+
+    overflow: visible;
+    display: grid;
+    place-content: center;
+
+    & img {
+        width: 48px;
+        height: auto;
+    }
+}
+
+.manage_area {
+    display: flex;
+    gap: inherit;
+    align-items: center;
+
+    & button {
+        background-color: #0000;
+        border: none;
+        height: 36px;
+    }
+}

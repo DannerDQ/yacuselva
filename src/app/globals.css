@@ -1,0 +1,28 @@
+:root {
+  --bg: #fefefe;
+  --fore: #121212;
+  --secondary-bg: #39f;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #212121;
+    --fore: #fefefe;
+    --secondary-bg: #2d84db;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  color: var(--fore);
+  background-color: var(--bg);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

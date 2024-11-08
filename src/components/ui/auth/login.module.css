@@ -1,0 +1,21 @@
+.login {
+    background-color: #fefefe;
+    color: #1212125f;
+
+    width: min-content;
+    display: grid;
+    place-content: center;
+
+    border-radius: 100%;
+    border: 2px solid #9f9f9f5e;
+    height: 40px;
+    width: 40px;
+
+    & a {
+        color: inherit;
+    }
+
+    & a:visited {
+        color: inherit;
+    }
+}
